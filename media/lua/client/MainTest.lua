@@ -14,7 +14,7 @@ require "pl.pretty"
 -- end
 
 local function OnPlayerDeath(player)
-    print("LOG : PKC: RawMessage=" .. dumb(chatMessage));
+    print(player:AttemptAttack());
 end
 
 Events.OnPlayerDeath.Add(OnPlayerDeath)
