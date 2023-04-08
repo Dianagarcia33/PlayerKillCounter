@@ -22,3 +22,4 @@ Events.OnPlayerDeath.Add(OnPlayerDeath)
 -- Events.OnZombieDead.Add(testDeath);
 -- Events.OnAddMessage.Add(onMessage);
 
+ 
